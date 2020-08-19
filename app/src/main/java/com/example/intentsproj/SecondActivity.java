@@ -32,7 +32,7 @@ public class SecondActivity extends AppCompatActivity {
         Num_11.setText(String.valueOf(num_01));
         Num_22.setText(String.valueOf(num_02));
 
-// + Button
+        //Adding 2 numbers
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +47,7 @@ public class SecondActivity extends AppCompatActivity {
         });
 
 
-
+        //Substracting 2 numbers
         minus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,7 +59,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-
+        //multiplying 2 numbers
         multiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,7 +72,7 @@ public class SecondActivity extends AppCompatActivity {
         });
 
 
-
+        //dividing 2 numbers
         division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
